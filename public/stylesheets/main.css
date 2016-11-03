@@ -1,0 +1,28 @@
+.poor-ui-navigation {
+    color: #fff;
+    background-color: #080808;
+    padding: 15px 15px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.poor-ui-image {
+    background-image: url("../nodejs.png");
+    width: 178px;
+    background-size: contain;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.poor-ui-bullets {
+    margin-left: 14.5%;
+    list-style: disc outside none;
+    display: list-item;
+    margin-bottom: 0px;
+}
+
+.poor-ui-heading {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
