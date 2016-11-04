@@ -9,11 +9,9 @@ app.get('/', function(request, response) {
   response.sendFile(__dirname + '/views/pages/index.html');
 });
 
-/*
 app.get('/sitemap.xml', function(request, response) {
   response.sendFile(__dirname + '/sitemap.xml');
 });
-*/
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
